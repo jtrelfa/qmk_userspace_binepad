@@ -7,7 +7,8 @@
     },
     "encoders": [
         [{ "ccw": "KC_VOLD", "cw": "KC_VOLU" }],
-        [{ "ccw": "RGB_VAD", "cw": "RGB_VAI" }]
+        [{ "ccw": "KC_TRNS", "cw": "KC_TRNS" }],
+        [{ "ccw": "KC_TRNS", "cw": "KC_TRNS" }]
     ],
     "keyboard": "binepad/bnk9",
     "keymap": "binepad",
@@ -20,30 +21,35 @@
             "KC_P4",
             "KC_P5",
             "KC_P6",
-            "KC_P7",
+            "CM_POM",
             "KC_P8",
             "LT(1,KC_P9)"
         ],
         [
-            "RGB_TOG",
-            "RGB_HUI",
-            "RGB_SAI",
-            "RGB_SPI",
-            "RGB_HUD",
-            "RGB_SAD",
-            "RGB_SPD",
-            "RGB_RMOD",
-            "RGB_MOD",
-            "_______"
+            "KC_TRNS",
+            "KC_TRNS",
+            "KC_TRNS",
+            "KC_TRNS",
+            "KC_TRNS",
+            "KC_TRNS",
+            "KC_TRNS",
+            "KC_TRNS",
+            "KC_TRNS",
+            "KC_TRNS"
+        ],
+        [
+            "KC_TRNS",
+            "KC_Q",
+            "KC_W",
+            "KC_E",
+            "KC_A",
+            "KC_S",
+            "KC_D",
+            "KC_Z",
+            "KC_X",
+            "KC_C"
         ]
     ],
     "layout": "LAYOUT",
-    "modules": [
-        "binepad/bp_encoder_configurable",
-        "binepad/bp_double_tap_lite",
-        "silvinor/sr_common",
-        "silvinor/sr_version",
-        "silvinor/sr_caffeine",
-        "jtrelfa/pomodoro"
-    ]
+    "modules": ["jtrelfa/pomodoro"]
 }

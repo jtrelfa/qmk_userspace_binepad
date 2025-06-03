@@ -12,7 +12,7 @@
 #    include "eeprom.h"
 #    include "bnk9_user.h"
 
-#    define BNK9_CONFIG_EEPROM_ADDR (VIA_EEPROM_CUSTOM_CONFIG_ADDR)
+#    define BNK9_CONFIG_EEPROM_ADDR (VIA_EEPROM_CUSTOM_CONFIG_SIZE)
 
 #    if VIA_EEPROM_CUSTOM_CONFIG_SIZE == 0
 #        error VIA_EEPROM_CUSTOM_CONFIG_SIZE was not defined to store user_config struct

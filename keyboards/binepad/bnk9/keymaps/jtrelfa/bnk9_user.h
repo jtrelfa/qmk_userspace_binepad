@@ -29,17 +29,20 @@ enum via_id_firmware_button {
     id_button_clear_eeprom  // 4
 };
 
+// enum custom_keycodes {
+//     B9_CAFFEINE_TOGGLE = QK_KB_0,
+//     B9_MUTE_PLAY_DOUBLE,    // 1
+//     B9_LAYER_JUMP,          // 2
+//     B9_LAYER_UP,            // 3
+//     B9_LAYER_DOWN,          // 4
+//     B9_LAYER_PRINT,         // 5
+//     B9_CAFFEINE_ON,         // 6
+//     B9_CAFFEINE_OFF,        // 7
+//     B9__SPARE__8,           // 8
+//     // USER_SET_KEYCODE_SEND_VERSION
+// };
 enum custom_keycodes {
-    B9_CAFFEINE_TOGGLE = QK_KB_0,
-    B9_MUTE_PLAY_DOUBLE,    // 1
-    B9_LAYER_JUMP,          // 2
-    B9_LAYER_UP,            // 3
-    B9_LAYER_DOWN,          // 4
-    B9_LAYER_PRINT,         // 5
-    B9_CAFFEINE_ON,         // 6
-    B9_CAFFEINE_OFF,        // 7
-    B9__SPARE__8,           // 8
-    // USER_SET_KEYCODE_SEND_VERSION
+    B9_COMMUNITY_MODULE_POMODORO_TIMER = QK_KB_0
 };
 
 // clang-format on
