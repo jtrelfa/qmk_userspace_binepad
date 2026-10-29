@@ -11,7 +11,7 @@
         [{ "ccw": "KC_TRNS", "cw": "KC_TRNS" }]
     ],
     "keyboard": "binepad/bnk9",
-    "keymap": "binepad",
+    "keymap": "jtrelfa",
     "layers": [
         [
             "KC_MUTE",
